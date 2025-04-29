@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+#carousel_title {
+	margin-bottom:10px;
+	width:100%;
+}
+
+
+#line_left {
+	float:left;
+	width:28%;
+	margin:20px 0 0;
+	border-bottom:1px solid #fff;
+}
+
+#line_right {
+	float:right;
+	width:28%;
+	margin:20px 0 0;
+	border-bottom:1px solid #fff;
+}
+
+
+#title_main {
+	width:44%;
+	float:left;
+	margin:0;
+	text-align:center;
+	font-size:12px;
+}
+
+#title_main > ruby {
+	width:45%;
+	float:left;
+	font-size:16px;
+}
+
+rt {
+	font-size:8px;
+}
+
+
+#title_box {
+	display:inline-block;
+	width:40%;
+	float:left;
+	color:#000;
+	background:#00A380;
+	margin:5px 0 0;
+	padding:5px 20px;
+	font-weight:bold;
+}
+
+.slider {
+  width:700px;
+  margin:0 auto;
+  height: 180px;
+  overflow: hidden;
+  position:relative;
+}
+
+.slider .slide {
+  width: 130px;
+  height: 178px;
+  float: left;
+  padding:0 5px;
+}
+
+.slider .slideSet {
+	position:absolute;
+}
+
+.slider-prev, .slider-next {
+	margin-top:2px;
+	display:inline-block;
+	border:1px solid white;
+	z-index:9999;
+}
+
+.slider-prev {
+	float:left;
+	opacity: 0.5;
+	position:absolute;
+	top:85px;
+	left:25px;
+}
+
+.slider-next {
+	float:right;
+	position:absolute;
+	top:85px;
+	right:30px;
+	cursor:pointer;
+}
+
+#under-menu {
+	max-width:1050px;
+	margin:10px auto 30px;
+	border-top:#000 1px solid;
+	border-bottom:#fff 1px solid;
+	position:relative;
+}
+
+
+.sport, .name {
+	font-size:14px;
+	border-bottom:1px solid #00A380;
+}
+
+.para {
+	font-size:10px;
+}
+
+.name {
+	border:none;
+}
+
+
+.slider a {
+	color:#fff !important;
+}
+
+.slider a:visited {
+	color:#fff !important;
+}

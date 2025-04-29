@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+/* import css */
+
+@import url("carousel.css");
+@import url("carousel_tab.css") (max-width:800px);
+@import url("carousel_sp.css") (max-width:699px);

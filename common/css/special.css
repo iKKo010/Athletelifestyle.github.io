@@ -1,0 +1,323 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+=====================================================
+  ▼アスリートライフルタイル　インタビュー　共通▼
+=====================================================
+*/
+
+#interview{
+	background:#000000 url(../../lifestyle/img/backimg.png) top center no-repeat;
+	background-size: contain;
+	color:#ffffff;
+	padding:40px 0 50px;
+}
+
+#interview h1{
+	border-bottom:#ffffff solid 1px;
+	text-align:left;
+	background:none;
+	margin-bottom:30px;
+	font-size:200%;
+	font-weight:normal;
+	padding:0;
+}
+
+#interview h4{
+	background:none;
+	padding:0;
+	font-size:130%;
+}
+
+#interview p{
+	line-height:1.8em;
+}
+
+
+
+/* アコーディオン */
+
+#interview .dl2 dt {
+}
+
+#interview .dl2 {
+	margin-bottom:20px;
+}
+
+
+#interview .dl2 dt a {
+	display: block;
+	padding: 20px 60px;
+	background: #00A380 url(../../lifestyle/img/arrow1.gif) no-repeat 30px center !important;
+	margin: 15px 0 0;
+	text-decoration: none !important;
+	color:#ffffff;
+	font-size:130%;
+	font-weight:bold;
+	line-height:1.2em;
+}
+#interview .dl2 dt.on a {
+	background: #00A380 url(../../lifestyle/img/arrow1.gif) no-repeat 30px center !important;
+}
+
+#interview .dl2 dt span {
+	font-weight:bold;
+	margin:0 10px 0 0;
+}
+
+#interview .dl2 dd {
+	background:#ffffff;
+	color:#333333;
+	display: none;
+	font-size: 90%;
+	padding: 30px 30px 10px;
+	margin:0;
+}
+
+#interview .dl2 dd:after {
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+
+
+#interview .dl2 dd .close a {
+	display: block;
+	background: #00A380;
+	float: right;
+	text-decoration: none !important;
+	padding: 5px 10px;
+	font-weight: bold;
+	margin:20px 0 0 0;
+}
+
+#interview .dl2 dd .close a img {
+	margin-right: 1em;
+	vertical-align: middle;
+}
+
+#interview .dl2 dd span {
+	font-weight:bold;
+	margin:0 10px 0 0;
+}
+
+/* ボックス */
+
+#interview .box1{
+	background:#ffffff;
+	border:none;
+	padding:30px 5% 30px 30px;
+	color:#333333;
+	box-sizing: border-box;
+}
+
+#interview .box1 h2{
+	background:url(../../lifestyle/img/arrow2.gif) no-repeat 0 center;
+	padding:0 0 0 1em;
+}
+
+#interview .box2{
+	background:#191919;
+	border:#ffffff solid 1px;
+	padding:30px;
+	position:relative;
+}
+#interview .box3 h3 img{
+	margin-bottom::30px;
+}
+
+#interview .box3 h3.bar1{background:#000000 url(../../lifestyle/img/bar1_bg.gif) repeat-x;}
+#interview .box3 h3.bar2{background:#000000 url(../../lifestyle/img/bar2_bg.gif) repeat-x;}
+
+
+#interview .box3 h4,
+#interview .box3 p {
+	margin-right:30px;
+}
+
+#interview .box3{
+	background:#ffffff;
+	color:#333333;
+	padding-bottom:30px;
+}
+
+
+#interview .box3 grid_system{
+	padding:30px;
+}
+
+
+
+/*---- frexible grid system ----*/
+
+
+.grid_system:after,
+.grid1:after,
+.grid2:after{
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+
+.grid_system img {
+	height: auto;
+}
+
+.grid_1_5,
+.grid_1_4,
+.grid_1_3,
+.grid_1_2,
+.grid_2_3,
+.grid_3_4 { 
+	display: block;
+	float: left;
+	margin-left: 2%;
+}
+
+.grid_1_5:first-child,
+.grid_1_4:first-child,
+.grid_1_3:first-child,
+.grid_1_2:first-child,
+.grid_2_3:first-child,
+.grid_3_4:first-child {
+	margin-left: 0; 
+}
+
+.grid_1_5 { width: 18.4%; }
+.grid_1_4 { width: 23.5%; }
+.grid_1_3 { width: 32.0%; }
+.grid_1_2 { width: 49.0%; }
+.grid_2_3 { width: 66.0%; }
+.grid_3_4 { width: 74.5%; }
+
+.grid_1_2.off{ width: auto!important;}
+
+#interview .grid1{
+	max-width: 100%;
+	height: auto;
+	padding:30px 30px 0 30px;
+
+}
+#interview .grid1_1,
+#interview .grid1_2 {
+	display:block;
+}
+
+#interview .grid1_1{
+	float:left;
+	max-width:60%;
+}
+#interview .grid1_2{
+	float:right;
+	max-width:40%;
+}
+
+#interview .grid2 {
+	position:relative;
+	padding-bottom: 50px;
+}
+
+#interview .grid2:after {
+	content: "";
+	display: block;
+	clear:both;
+	visibility: hidden;
+	height: 0;
+}
+
+#interview .grid2_1,
+#interview .grid2_2 {
+	width:55%;
+}
+
+#interview .grid2_1 {
+	position:absolute;
+	left:0;
+	z-index:0;
+}
+
+@media screen and (min-width: 1600px) {
+	#interview .grid2_2 {
+		width: auto;
+		margin-left: 550px;
+	}
+}
+
+#interview .grid2_1 img{
+	max-width:100%;
+}
+
+#interview .img_vertical .grid2_1 {
+	width: 35%;
+}
+
+#interview .img_vertical .grid2_2 {
+	width: 65%;
+}
+
+#interview .grid2_2 {
+	position:relative;
+	float:right;
+	margin-top: 7%;
+	z-index:10;
+	min-height: 400px;
+}
+
+#interview .grid2_2 section {
+}
+
+
+/* その他 */
+#interview p.btn{
+	margin:0 auto;}
+#interview .btn a{
+	display:block;
+	background:#ffffff;
+	border:#00A380 solid 3px;
+	color:#00A380;
+	text-decoration:none;
+	padding:8px 30px;
+	font-size:120%;
+	font-weight:bold;
+	text-align:center;
+}
+
+#interview .btn a:hover{
+	background:#e7f7f3;
+}
+
+#interview .icon1{
+    height: 100%;           /* 1 */
+}
+#interview .icon1 img,
+#interview .icon1 p{
+    display: flex;          /* 2 */
+/*    justify-content: center; 3 */
+    align-items: center;    /* 4 */
+}
+
+#interview .icon1 p{
+	font-weight:bold;
+	font-size:120%;
+	color:#00A380;
+
+}
+#interview .icon1 img{
+	margin-right:5%}
+
+#interview .icon1 p span{
+	display:block;
+	padding-top:20px;
+}
+
+/*
+============================================================
+  ▲アスリートライフルタイル　インタビュー　共通▲ここまで
+============================================================
+*/
+

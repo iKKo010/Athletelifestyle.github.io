@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* ----------------------------------------------------
+   common setting
+------------------------------------------------------- */
+
+body {
+	font-size: 90%;
+	letter-spacing: 0.2px;
+}
+
+/* basic setting:
+--------------------------------------------*/
+
+.outline {
+	width: 98%;
+	padding: 0 1%;
+}
+
+.outline2 {
+	width: 100%;
+}
+
+/*---- sns ----*/
+.sns_fb {
+	margin:0px 10px 0 0;
+	float:left;
+}
+.sns_tw {
+	margin:0px 10px 0 0;
+	float:left;
+}
+.sns_li {
+	margin:0px 0 0 0;
+	float:left;
+}
+
+#news h2 img{
+	width:25%;
+}
+
+.map_pc {display: none;}
+.map_tabsp {display: block;}

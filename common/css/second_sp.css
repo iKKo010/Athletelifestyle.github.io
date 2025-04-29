@@ -1,0 +1,506 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*---- lonav ----*/
+
+#lonav{
+	display:none;
+}
+
+/*---- panav ----*/
+
+#panav {
+	margin: 10px 0px 0 0;
+	position:relative;
+	z-index:0;
+}
+
+.pdt5em {
+	padding: 1em 0 0 0 !important;
+}
+
+/*---- ttl ----*/
+
+#main h1 > span {
+	padding:0 0 6% 0;
+}
+
+.title02 {
+	width:100%;
+}
+.title02 span {
+	width:100%;
+}
+
+/*-- table --*/
+
+.table1.table_bl td,
+.table1.table_bl th {	
+	display:block;
+	width:100%;
+}
+/*---- img ----*/
+
+.img_cap {
+	display: block;
+	float: none;
+	margin-bottom:1em;
+}
+
+.left.img_cap,
+.right.img_cap {margin: 0 0 1em;}
+
+.img01 .left,
+.img01 .right{
+	width:100%;
+}
+
+/*-- comment --*/
+
+.comment img { width: 20%;}
+	
+.comment:after {
+	top: 25%;
+	left: -35px;
+}
+
+
+
+.comment {
+    border-radius: 40px;
+}
+
+
+.comment.color01 {border-top: 8px solid #EE4B2C;border-left: 18px solid #EE4B2C;border-bottom: 8px solid #EE4B2C;border-right: 18px solid #EE4B2C;}
+.comment.color02 {border-top: 8px solid #EE9523;border-left: 18px solid #EE9523;border-bottom: 8px solid #EE9523;border-right: 18px solid #EE9523;}
+.comment.color03 {border-top: 8px solid #629F3D;border-left: 18px solid #629F3D;border-bottom: 8px solid #629F3D;border-right: 18px solid #629F3D;}
+.comment.color04 {border-top: 8px solid #4F8AA3;border-left: 18px solid #4F8AA3;border-bottom: 8px solid #4F8AA3;border-right: 18px solid #4F8AA3;}
+.comment.color05 {border-top: 8px solid #52377C;border-left: 18px solid #52377C;border-bottom: 8px solid #52377C;border-right: 18px solid #52377C;}
+
+
+/*-- column --*/
+
+.column01 {
+	width:100%;
+}
+
+.column02 {
+	width:100%;
+}
+
+.column01_01 .left.column_icon01 img,
+.column01_01 .left.column_icon02 img{
+	width:10%;
+}
+.column01_01 .left {
+	float:none;
+	margin:0 0 10px;
+}
+.column01_01 .left01,
+.column01_01 .right01 {
+	float:none;
+	margin: 0;
+}
+
+/*-- news --*/
+.news .left {
+	width:100%;
+	margin:0 3% 0 0;
+}
+
+.news .right {
+	width:100%;
+	float:none;
+}
+
+.news_list dt {
+	float:none;
+	width:100%;
+	margin:2% 3% 1% 0;
+}
+.news_list dt img {
+	margin:0 3% 0 0;
+	width:15%;
+	max-width:25px;
+}
+
+.news_list dd {
+	float:left;
+	width:100%;
+	background: url(../img/common/arrow01.gif) no-repeat 0 1.2em;
+	padding:1.5% 0 0 6%;
+	margin:0 0 2%;
+}
+
+.news .right .year li {
+	width:31%;
+	float:left;
+	margin:0 2% 2% 0;
+
+
+}
+
+#main .btn01 .left,
+#main .btn01 .right {
+	width:100%;
+	margin:0 0 20px;
+}
+
+
+/*--------------------------------------------------
+ワールドクラス・パスウェイ・ネットワークMAP   
+----------------------------------------------------*/
+
+#main .map_detail .event ul{
+	display: flex;
+	align-items: stretch;
+	flex-flow: row wrap;
+}
+
+#main .map_detail .event li{
+	width: 50%;
+	display: block;;
+}
+
+#main .map_detail .event li img{
+	max-width: 35px;
+	display: block;
+}
+
+#main #map_list li img{
+	width: 15px;
+}
+
+p.lnk3 a {
+    word-break: break-all;
+}
+
+/*--------------------------------------------------
+WPN会員専用ページ   body id="member"
+----------------------------------------------------*/
+
+
+#member #lonav > ul > li{
+	display:none;
+}
+
+#member #lonav > ul > li:first-child{
+	display:block;
+}
+
+#member #lonav > ul > li > span{
+	position:relative;
+	padding-left:40px;
+}
+
+#member #lonav ul li .icon{
+	display:block;
+	position:absolute;
+	background:#ffffff;
+	width:3px;
+	height:17px;
+	left:21px;
+	top:33%
+}
+
+#member #lonav ul li .icon:before{
+	content:"";
+	display:block;
+	position:absolute;
+	background:#ffffff;
+	width:17px;
+	height:3px;
+	left:-7px;
+	top:7px;
+}
+
+#member #lonav ul li .close .icon{
+	width:17px;
+	height:3px;
+	left:14px;
+	top:47%;
+}
+
+#member #lonav ul li .close .icon:before{
+	left:0;
+	top:0;
+}
+
+#member #l_col {
+    float: none;
+    width: 100%;
+}
+
+#member #r_col {
+    width: 100%;
+    float: none;
+    margin-bottom: 20px;
+}
+
+#member #l_col .article span {
+    margin-right: 10px;
+}
+
+#member #l_col .article time {
+    display: block;
+    margin: 15px 15px 15px 0;
+}
+
+#member #document .grid_1_2 .cover{
+	float:none;
+}
+
+
+#member #document .grid_1_2 img{
+	float:none;
+	max-width:100%;
+	height:auto;
+	margin-right:0;
+}
+
+
+#member #l_col .liner li a {
+    width: 33%;
+}
+
+.wpn_figure{
+	margin:0;
+}
+.wpn_figure figcaption{
+	margin-top:5px;
+	font-size:90%;
+}
+
+
+/*--------------------------------------------------
+日本版FTEMページ   body id="ftem"
+----------------------------------------------------*/
+
+#ftem .stage h2{
+	text-align:center;
+    margin: 60px 0 60px;
+	font-size:120%;
+}
+
+#ftem .stage .mark{
+	font-size:150%;
+	border-radius: 50%;
+	padding:30px;
+	margin:0;
+    margin-right: 15px;
+}
+
+#ftem #mastery .stage .mark {
+    padding: 30px 34px;
+}
+
+#ftem .stage .mgtb5em{
+    margin: 4em 0 3em;
+}
+
+#ftem .outline.stage {
+    width: auto;
+}
+
+#ftem .stage .bgg {
+    line-height: 2em;
+}
+
+/*--------------------------------------------------
+NF向けページ   body id="nf"
+2021/10/05追加
+----------------------------------------------------*/
+
+.frame:nth-child(2n+1) .case_frame_inner{
+	margin-left: -10%;
+}
+.frame:nth-child(2n) .case_frame_inner{
+	margin-left: -113%;
+}
+
+#tool .frame p{
+	margin: 0 0  0.5rem 0;
+}
+
+/*--------------------------------------------------
+NF向けページ stage以下  body id="nf"
+2021/10/05追加　
+----------------------------------------------------*/
+
+
+#nf_stage .contents {
+    margin: 0;
+}
+
+#nf_stage .grid_system {
+    margin: 30px 0;
+}
+
+#nf_stage .grid_2_5 {
+	margin-top: 25px;
+}
+
+#nf_stage .grid_2_5,
+#nf_stage .grid_3_5 {
+	width: 100%;
+	float: none;
+}
+
+#nf_stage #t1 {
+	font-size:120%;
+}
+
+
+#nf_stage h3{
+	font-size:120%;
+}
+
+
+#nf_stage  .nf_list1 {
+	padding: 0;
+}
+
+#nf_stage .nf_list2 li,
+#nf_stage .nf_list3 li {
+    margin-left: 1em;
+}
+
+#nf_stage .nf_list3,
+#experience .nf_list3 {
+	display: block;
+}
+
+#nf_stage .contents .grid_1_3 {
+	margin-top: 2em;
+} 
+
+
+#experience .ex_list1 li {
+	padding: 1em 0.8em 1em 2.5em;
+}
+
+#experience .ex_list1 li::before {
+	left: 0.5em;
+	top: 1em;
+}
+
+/* APS */
+
+#aps .flex {
+    display: block;
+}
+
+#aps .aps_img img {
+	padding: 0;
+}
+
+#aps #step h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#aps #step h2 span {
+    display: block;
+    margin: 0 auto 1.5rem;
+}
+
+#aps #step h2 span:before {
+    top: 105px;
+    border-left: none;
+    border: 15px solid transparent;
+    border-top: 20px solid #C00000;
+    right: 35px;
+}
+
+#aps #step .border {
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+#aps #star .outline > * {
+    padding: 1rem 0 0;
+}
+
+#aps #star .outline h2,
+#aps #star .outline h3,
+#aps #star .outline p,
+#aps #star .outline ul,
+#aps #star .outline dl {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#aps #star .dl1 dd {
+    margin-bottom: 0;
+}
+
+#aps #aps_banner {
+    text-align: center;
+    inset: auto 0;
+}
+
+#aps #aps_banner a {
+    display: inline-block;
+}
+
+#aps #aps_banner .blue {
+    font-size: 100%;    
+}
+
+/* program setting:
+--------------------------------------------*/
+
+#contents #program {
+	font-size: 90%;
+	padding-top: 2rem;
+    margin-top: -2rem;
+	padding-bottom: 2rem;
+}
+#contents #program h3 {
+	font-size: 1.5em;
+	line-height: 1.1em;
+    height: 3rem;
+}
+
+#program h3 span {
+	font-size: 1.4em;
+	padding: 0.7rem 0.5rem 1.6rem 0.7rem;
+	background-size: 90%;
+	background-position: center center;
+	width: auto;
+	height: auto;
+}
+
+#contents #program p {
+	margin-top: 6rem;
+}
+
+#contents #program p.btn1 {
+	margin-top: 2rem;
+}
+
+#program .talent_box ul {
+	padding: 0;
+}
+
+#program .talent_box ul li {
+	flex-wrap: wrap;
+	padding-top: 0.8rem;
+}
+
+#program .talent_box ul li span {
+	width: 5rem;
+	margin: inherit;
+}
+
+#program .talent_box ul li a {
+	margin-right: 0!important;
+	width: 100%;
+	padding: 0 3.5rem 0 0;
+	line-height: inherit;
+}
+
+#program .talent_box ul li a.flyer {
+	width: 100%;
+	padding: 0.8rem;
+}

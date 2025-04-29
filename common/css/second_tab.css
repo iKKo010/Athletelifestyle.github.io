@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* ----------------------------------------------------
+   common setting
+------------------------------------------------------- */
+
+/*---- panav ----*/
+
+#panav {
+	margin: 15px 0px 0 0;
+}
+
+/*---- lonav ----*/
+
+#lonav .outline {
+    padding: 0;
+    width: 100%;
+}
+
+#lonav
+{background:#5e5757;
+margin:0 0 20px 0;
+font-size:80%;
+}
+
+#lonav:after {
+	content: "";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+}
+
+#lonav > ul > li {
+	display: inline;
+}
+
+#lonav > ul > li > a,
+#lonav > ul > li > em{
+	display:block;
+	float:left;
+	padding: 20px 15px;
+	text-decoration:none;
+	color:#fff;
+}
+
+#lonav > ul > li > a:hover,
+#lonav > ul > li > em {
+	background:#bab7b7;
+	color:#5e5757;
+	position: relative;
+}
+
+#main h2 img {
+	margin:0 10px 3px 0;
+	max-width:25px;
+}
+
+/*--------------------------------------------------
+ワールドクラス・パスウェイ・ネットワークMAP   
+----------------------------------------------------*/
+
+.map_tabsp .map_detail {display: block;}
+
+#main .map_detail > li {
+	display: list-item;
+	padding: 1em;
+	border: none;
+	border-bottom: solid 2px #ccc;
+	border-radius: 0;
+	position: relative;
+}
+
+#main .map_detail h4{
+	font-size: 20px;
+}
+
+#main .map_detail h4 small{
+	font-size: 14px;
+	margin-left: 10px;
+}
+
+.dl2 dd dd {
+	display: block;
+}
+
+#map_list li > a:hover .tooltip,
+#map_list li > a:focus .tooltip {
+	display: none;
+	}
+
+	#main #map_list li img{
+		width: 20px;
+	}
+
+/*--------------------------------------------------
+WPN会員専用ページ   body id="member"
+----------------------------------------------------*/
+
+
+#member #lonav{
+	display:block;
+}
+
+
+

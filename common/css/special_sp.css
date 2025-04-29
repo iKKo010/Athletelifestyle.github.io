@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+=====================================================
+  ▼アスリートライフルタイル　インタビュー　共通▼
+=====================================================
+*/
+
+#interview{
+	background:;
+}
+
+#interview .icon1 p{
+	display:inline;
+}
+
+#interview .icon1 span{
+	display:block;
+	margin-bottom:20px;
+}
+
+#interview .box1,
+#interview .img_vertical .box1{
+	padding:30px;
+	margin:10px 0;
+	width:100%;
+}
+
+.grid_1_5,
+.grid_1_4,
+.grid_1_3,
+.grid_1_2,
+.grid_2_3,
+.grid_3_4 {
+	float:none;
+	width:auto;
+	margin:0;
+}
+
+.grid_1_2 img{
+	width:100%;
+}
+
+
+
+#interview .grid1{
+	max-width: 100%;
+}
+
+
+#interview .grid1_1{
+	float:none;
+	max-width:100%;
+}
+#interview .grid1_1 p{
+	margin-right:0;
+}
+
+#interview .grid1_2,
+#interview .img_vertical .grid2_1{
+	float:none;
+	max-width:100%;
+}
+#interview .grid1_2 img{
+	width:100%;
+}
+
+#interview .grid2{
+	margin: 0 3%;
+	width:94%;
+	position: relative;
+	padding: 0 1%;
+}
+
+#interview .grid2_1,
+#interview .img_vertical .grid2_1{
+	position:relative;
+	width: 100%;
+}
+
+#interview .grid2_1 img {
+	margin:10px 0;
+}
+
+#interview .grid2_2{
+	float:none;
+	min-height: auto;
+}
+
+
+/*
+============================================================
+  ▲アスリートライフルタイル　インタビュー　共通▲ここまで
+============================================================
+*/
+
